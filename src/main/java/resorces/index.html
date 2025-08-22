@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taller AREP 1 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-img-container">
+                <img src="http://localhost:35000/pajaro.jpg" alt="Pajaro" class="card-img">
+            </div>
+            <div class="card-content">
+                <h1>Form with GET</h1>
+                <form action="/hello">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" value="John"><br><br>
+                    <input type="button" value="Submit" onclick="loadGetMsg()">
+                </form>
+                <div id="getrespmsg"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img-container">
+                <img src="http://localhost:35000/jiraga.png" alt="jirafa" class="card-img">
+            </div>
+            <div class="card-content">
+                <h1>Form with POST</h1>
+                <form action="/hellopost">
+                    <label for="postname">Name:</label><br>
+                    <input type="text" id="postname" name="name" value="John"><br><br>
+                    <input type="button" value="Submit" onclick="loadPostMsg(postname)">
+                </form>
+                <div id="postrespmsg"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
