@@ -1,4 +1,4 @@
-# HTTP Server Framework - Java Implementation (Taller 2 AREP)
+#Microframeworks WEB (Taller 2 AREP)
 
 Un framework de servidor HTTP implementado en Java que permite el desarrollo de aplicaciones web con servicios REST backend. Este proyecto convierte un servidor HTTP básico en un framework completo que soporta la definición de servicios REST usando funciones lambda, manejo de parámetros de consulta y especificación de ubicación de archivos estáticos.
 
